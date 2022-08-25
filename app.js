@@ -76,7 +76,7 @@ const data = [
         gender: 'Female',
         lookingFor: 'Male',
         location: 'Riverside, London',
-        image: 'https://randomuser.me/api/portraits/men/49.jpg'
+        image: 'https://randomuser.me/api/portraits/men/39.jpg'
     },
     {
         name: 'Washington Jnr',
@@ -84,7 +84,7 @@ const data = [
         gender: 'Male',
         lookingFor: 'Female',
         location:'Finess, Poland',
-        image: 'https://randomuser.me/api/portraits/wommen/22.jpg'
+        image: 'https://randomuser.me/api/portraits/women/22.jpg'
     },
 
     {
