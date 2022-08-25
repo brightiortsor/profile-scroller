@@ -111,7 +111,7 @@ function nextProfile(){
     
     if(currentProfile !== undefined){
     document.getElementById('profileDisplay').innerHTML = `
-    <ul class="list-group w-50">
+    <ul class="list-group w-full">
         <li class="list-group-item">Name: ${currentProfile.name}</li>
         <li class="list-group-item">Age: ${currentProfile.age}</li>
         <li class="list-group-item">Location: ${currentProfile.location}</li>
