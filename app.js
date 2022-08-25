@@ -120,7 +120,7 @@ function nextProfile(){
     `; 
  const displayNew = document.getElementById('imageDisplay');
  displayNew.innerHTML = `<img src="${currentProfile.image}"> `;
-        displayNew.style.paddingLeft = "75px";     
+        displayNew.style.margin = "0 auto";     
        
     } else {
         window.location.reload();
