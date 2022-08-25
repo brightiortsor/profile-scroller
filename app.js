@@ -69,6 +69,31 @@ const data = [
         lookingFor: 'Female',
         location: 'Dublin, Ireland',
         image: 'https://randomuser.me/api/portraits/women/89.jpg'
+    },
+    {
+        name: 'Akeela Lee',
+        age: 24,
+        gender: 'Female',
+        lookingFor: 'Male',
+        location: 'Riverside, London',
+        image: 'https://randomuser.me/api/portraits/men/49.jpg'
+    },
+    {
+        name: 'Washington Jnr',
+        age: 40,
+        gender: 'Male',
+        lookingFor: 'Female',
+        location:'Finess, Poland',
+        image: 'https://randomuser.me/api/portraits/wommen/22.jpg'
+    },
+
+    {
+        name: 'Kath Lang',
+        age: 28,
+        gender: 'Female',
+        lookingFor: 'Male',
+        location: 'Sydney, Austria',
+        image: 'https://randomuser.me/api/portraits/men/19.jpg'
     }
 ];
 
@@ -86,7 +111,7 @@ function nextProfile(){
     
     if(currentProfile !== undefined){
     document.getElementById('profileDisplay').innerHTML = `
-    <ul class="list-group w-60">
+    <ul class="list-group w-50">
         <li class="list-group-item">Name: ${currentProfile.name}</li>
         <li class="list-group-item">Age: ${currentProfile.age}</li>
         <li class="list-group-item">Location: ${currentProfile.location}</li>
