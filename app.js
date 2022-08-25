@@ -23,7 +23,7 @@ const data = [
         age: 34,
         gender: 'Female',
         lookingFor: 'Male',
-        location: 'Accras, Ghana',
+        location: 'Accra, Ghana',
         image: 'https://randomuser.me/api/portraits/women/34.jpg'
     },
 
@@ -58,8 +58,8 @@ const data = [
         age: 47,
         gender: 'Male',
         lookingFor: 'Female',
-        location:'Rising, India',
-        image: 'https://randomuser.me/api/portraits/men/100.jpg'
+        location:'RisingDay, India',
+        image: 'https://randomuser.me/api/portraits/men/62.jpg'
     },
 
     {
@@ -68,7 +68,7 @@ const data = [
         gender: 'Male',
         lookingFor: 'Female',
         location: 'Dublin, Ireland',
-        image: 'https://randomuser.me/api/portraits/women/79.jpg'
+        image: 'https://randomuser.me/api/portraits/women/89.jpg'
     }
 ];
 
@@ -95,6 +95,7 @@ function nextProfile(){
     `; 
  const display = document.getElementById('imageDisplay');
  display.innerHTML = `<img src="${currentProfile.image}"> `;
+        display.style.width = "200px";
     } else {
         window.location.reload();
     }
