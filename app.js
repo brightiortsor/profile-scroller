@@ -68,7 +68,7 @@ const data = [
         gender: 'Male',
         lookingFor: 'Female',
         location: 'Dublin, Ireland',
-        image: 'https://randomuser.me/api/portraits/men/211.jpg'
+        image: 'https://randomuser.me/api/portraits/men/11.jpg'
     },
     {
         name: 'Akeela Lee',
@@ -76,7 +76,7 @@ const data = [
         gender: 'Female',
         lookingFor: 'Male',
         location: 'Riverside, London',
-        image: 'https://randomuser.me/api/portraits/women/215.jpg'
+        image: 'https://randomuser.me/api/portraits/women/15.jpg'
     },
     {
         name: 'Washington Jnr',
@@ -84,7 +84,7 @@ const data = [
         gender: 'Male',
         lookingFor: 'Female',
         location:'Finess, Poland',
-        image: 'https://randomuser.me/api/portraits/men/176.jpg'
+        image: 'https://randomuser.me/api/portraits/men/76.jpg'
     },
 
     {
@@ -93,7 +93,7 @@ const data = [
         gender: 'Female',
         lookingFor: 'Male',
         location: 'Sydney, Austria',
-        image: 'https://randomuser.me/api/portraits/women/153.jpg'
+        image: 'https://randomuser.me/api/portraits/women/13.jpg'
     }
 ];
 
