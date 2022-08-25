@@ -93,9 +93,11 @@ function nextProfile(){
         <li class="list-group-item">Preference: ${currentProfile.gender} looking for ${currentProfile.lookingFor}</li>
     </ul>
     `; 
- const display = document.getElementById('imageDisplay');
- display.innerHTML = `<img src="${currentProfile.image}"> `;
-        display.style.width = "200px";
+ const displayNew = document.getElementById('imageDisplay');
+ displayNew.innerHTML = `<img src="${currentProfile.image}"> `;
+        displayNew.style.display = "flex"
+        displayNew.style.alignItems = "center";
+        displayNew.style.justifyContent = "center";
     } else {
         window.location.reload();
     }
