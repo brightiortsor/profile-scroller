@@ -5,7 +5,7 @@ const data = [
         age: 45,
         gender: 'Male',
         lookingFor: 'Female',
-        location: 'Riverdale Ng',
+        location: 'Houston, Texas',
         image: 'https://randomuser.me/api/portraits/men/11.jpg'
     },
 
@@ -14,7 +14,7 @@ const data = [
         age: 52,
         gender: 'Male',
         lookingFor: 'Female',
-        location:'Calabar Ng',
+        location:'California, US',
         image: 'https://randomuser.me/api/portraits/men/65.jpg'
     },
 
@@ -23,7 +23,7 @@ const data = [
         age: 34,
         gender: 'Female',
         lookingFor: 'Male',
-        location: 'Lagos Ng',
+        location: 'Accras, Ghana',
         image: 'https://randomuser.me/api/portraits/women/34.jpg'
     },
 
@@ -32,7 +32,7 @@ const data = [
         age: 25,
         gender: 'Female',
         lookingFor: 'Female',
-        location: 'Jos Ng',
+        location: 'Chinatown, Japan',
         image: 'https://randomuser.me/api/portraits/women/77.jpg'
     },
 
@@ -41,7 +41,7 @@ const data = [
         age: 47,
         gender: 'Female',
         lookingFor: 'Male',
-        location:'Calabar Ng',
+        location:'Lagos, Nigeria',
         image: 'https://randomuser.me/api/portraits/women/91.jpg'
     },
 
@@ -50,8 +50,25 @@ const data = [
         age: 29,
         gender: 'Male',
         lookingFor: 'Female',
-        location: 'Pcourt Ng',
+        location: 'Downtown, Mexico',
         image: 'https://randomuser.me/api/portraits/men/79.jpg'
+    },
+    {
+        name: 'Backer James',
+        age: 47,
+        gender: 'Male',
+        lookingFor: 'Female',
+        location:'Rising, India',
+        image: 'https://randomuser.me/api/portraits/men/100.jpg'
+    },
+
+    {
+        name: 'Sucre Papito',
+        age: 29,
+        gender: 'Male',
+        lookingFor: 'Female',
+        location: 'Dublin, Ireland',
+        image: 'https://randomuser.me/api/portraits/women/79.jpg'
     }
 ];
 
@@ -76,7 +93,8 @@ function nextProfile(){
         <li class="list-group-item">Preference: ${currentProfile.gender} looking for ${currentProfile.lookingFor}</li>
     </ul>
     `; 
- document.getElementById('imageDisplay').innerHTML = `<img src="${currentProfile.image}"> `;
+ const display = document.getElementById('imageDisplay');
+ display.innerHTML = `<img src="${currentProfile.image}"> `;
     } else {
         window.location.reload();
     }
