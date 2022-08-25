@@ -95,7 +95,8 @@ function nextProfile(){
     `; 
  const displayNew = document.getElementById('imageDisplay');
  displayNew.innerHTML = `<img src="${currentProfile.image}"> `;
-        displayNew.style.paddingRight = "50px"
+        displayNew.style.position = "absolute";
+        displayNew.style.left = "5%";
        
     } else {
         window.location.reload();
