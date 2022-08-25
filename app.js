@@ -119,8 +119,7 @@ function nextProfile(){
     </ul>
     `; 
  const displayNew = document.getElementById('imageDisplay');
- displayNew.innerHTML = `<img src="${currentProfile.image}"> `;
-        displayNew.style.margin = "0 auto";     
+ displayNew.innerHTML = `<img src="${currentProfile.image}"> `;    
        
     } else {
         window.location.reload();
